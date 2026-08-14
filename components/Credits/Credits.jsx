@@ -13,10 +13,9 @@ const layoutPattern = [
 export default function Credits() {
   return (
     <section className={styles.credits}>
-      <header className={styles.header}>
-        <p>Selected Work</p>
-        <span>{credits.length}</span>
-      </header>
+      {/* <header className={styles.header}>
+        <p className={styles.title}>Selected Work</p>
+      </header> */}
 
       <div className={styles.creditsList}>
         {credits.map((credit, index) => {

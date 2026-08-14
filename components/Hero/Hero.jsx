@@ -5,6 +5,14 @@ export default function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.filter}></div>
+      <div className={styles.creditsHeader}>
+        {/* {creditTitle.map((letter, index) => (
+          <p key={index} className={styles.letter}>
+            {letter}
+          </p>
+        ))} */}
+        <p>Credits</p>
+      </div>
 
       <div className={styles.credits}>
         <Credits />
