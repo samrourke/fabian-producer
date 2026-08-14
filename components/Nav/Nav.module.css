@@ -1,0 +1,133 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 99;
+  background-color: var(--foreground);
+}
+
+.logoWrap {
+  position: absolute;
+  left: 2rem;
+  top: 1rem;
+}
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+/* Burger Button */
+.toggleButton {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28px;
+  height: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.toggleButton span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: var(--accent, #00ff99);
+  border-radius: 2px;
+  transition: all 0.35s ease;
+}
+
+.toggleButton.open span:nth-child(2) {
+  opacity: 0;
+}
+.toggleButton.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 6.5px);
+}
+.toggleButton.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -6.5px);
+}
+
+/* Desktop Nav */
+.desktopNav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  height:100%;
+}
+
+.desktopNav li {
+  position: relative;
+  color: white;
+  transition: color 0.3s ease;
+
+
+
+}
+
+.desktopNav li h3{
+
+  padding: 0;
+  margin: 0;
+}
+
+.desktopNav li::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent, #00ff99);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.desktopNav li:hover::after {
+  transform: scaleX(1);
+}
+
+/* Mobile Nav (animated overlay) */
+.mobileNav {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(8px);
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 90;
+}
+
+@media (max-width: 860px) {
+  .desktopNav {
+    display: none;
+  }
+
+  .toggleButton {
+    display: flex;
+  }
+
+  .logo {
+    height: 32px;
+  }
+
+  .mobileNav {
+    display: flex;
+  }
+}
