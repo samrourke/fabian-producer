@@ -1,0 +1,264 @@
+.credits {
+  min-height: 100svh;
+  width: 100%;
+
+  padding: clamp(1.5rem, 3vw, 3rem);
+
+  color: white;
+}
+
+
+/* HEADER */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 1rem;
+  margin-bottom: clamp(5rem, 10vh, 9rem);
+
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.header p {
+  margin: 0;
+}
+
+
+/* LIST */
+
+.creditsList {
+  display: flex;
+  flex-direction: column;
+
+  gap: clamp(6rem, 14vh, 12rem);
+
+  padding-bottom: 20vh;
+}
+
+
+/* EACH CREDIT OCCUPIES A FULL ROW */
+
+.credit {
+  position: relative;
+
+  width: 100%;
+
+  display: flex;
+}
+
+
+/* INNER CONTAINER */
+
+.creditInner {
+  position: relative;
+
+  width: clamp(220px, 58%, 420px);
+}
+
+
+/* IRREGULAR POSITIONING */
+
+.farLeft {
+  justify-content: flex-start;
+}
+
+.insetLeft {
+  justify-content: flex-start;
+  padding-left: 12%;
+}
+
+.centre {
+  justify-content: center;
+}
+
+.insetRight {
+  justify-content: flex-end;
+  padding-right: 10%;
+}
+
+.farRight {
+  justify-content: flex-end;
+}
+
+
+/* VARY THE SCALE SLIGHTLY */
+
+.farLeft .creditInner {
+  width: clamp(220px, 55%, 380px);
+}
+
+.insetLeft .creditInner {
+  width: clamp(200px, 48%, 340px);
+}
+
+.centre .creditInner {
+  width: clamp(240px, 60%, 420px);
+}
+
+.insetRight .creditInner {
+  width: clamp(210px, 52%, 360px);
+}
+
+.farRight .creditInner {
+  width: clamp(240px, 62%, 430px);
+}
+
+
+/* IMAGE */
+
+.picture {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.cover {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.4s ease;
+}
+
+.creditInner:hover .cover {
+  transform: scale(1.025);
+}
+
+
+/* NUMBER */
+
+.number {
+  position: absolute;
+
+  top: 0;
+  left: -2.5rem;
+
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+
+  opacity: 0.65;
+}
+
+
+/* METADATA */
+
+.meta {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+
+  margin-top: 0.75rem;
+}
+
+.meta h2 {
+  margin: 0;
+
+  font-size: clamp(0.85rem, 1vw, 1rem);
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.release {
+  margin: 0.2rem 0 0;
+
+  font-size: 0.75rem;
+  line-height: 1.3;
+
+  opacity: 0.75;
+}
+
+.roles {
+  margin: 0;
+
+  max-width: 45%;
+
+  font-size: 0.6rem;
+  line-height: 1.4;
+
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+  opacity: 0.65;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .credits {
+    height: auto;
+    overflow: visible;
+
+    padding: 1.5rem;
+  }
+
+  .header {
+    position: static;
+    margin-bottom: 5rem;
+  }
+
+  .creditsList {
+    gap: 6rem;
+  }
+
+  .credit {
+    padding: 0;
+  }
+
+  .creditInner,
+  .farLeft .creditInner,
+  .insetLeft .creditInner,
+  .centre .creditInner,
+  .insetRight .creditInner,
+  .farRight .creditInner {
+    width: 78%;
+  }
+
+  .farLeft,
+  .insetLeft {
+    justify-content: flex-start;
+  }
+
+  .centre {
+    justify-content: center;
+  }
+
+  .farRight,
+  .insetRight {
+    justify-content: flex-end;
+  }
+
+  .number {
+    left: auto;
+    right: 0;
+    top: -1.5rem;
+  }
+
+  .meta {
+    display: block;
+  }
+
+  .roles {
+    max-width: none;
+
+    margin-top: 0.75rem;
+
+    text-align: left;
+  }
+}

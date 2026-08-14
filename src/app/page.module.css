@@ -1,5 +1,12 @@
-.main {
-  min-height: 100vh;
+.site{
+  position: relative;
+ 
+}
+
+.content {
+  position: relative;
+  width:100%;
+  min-height: 100svh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,6 +22,7 @@
   object-fit: cover;
   z-index: -1;
   background: url('/images/bg_03.jpg') no-repeat center center;
+  
 }
 
 

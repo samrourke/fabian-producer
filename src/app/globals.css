@@ -7,8 +7,10 @@
 /* ── Design Tokens ────────────────────────────────────────── */
 :root {
   /* Colours — override per project */
-  --background:   #ffffff;
-  --foreground:   #171717;
+  --background:   #f7f7f7;
+  --foreground:   #141414;
+  --orange: #D9641E;
+
  
 
 
@@ -64,7 +66,7 @@ html {
   color-scheme: light dark;
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 body {
