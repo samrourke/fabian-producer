@@ -17,9 +17,9 @@ export default function Hero() {
       <div className={styles.profile}>
         <div className={styles.heroText}>
           <h1 className={styles.heroTitle}>Fabian Prynn</h1>
-          <p className={styles.heroSubtitle}>
+          {/* <p className={styles.heroSubtitle}>
             Producer / Mixer / Engineer / Drums
-          </p>
+          </p> */}
         </div>
 
         <img
@@ -27,10 +27,13 @@ export default function Hero() {
           src="/images/fab.jpg"
           alt="Fabian Prynn"
         />
-
-        <a className={styles.contact} href="mailto:...">
-          Get In Touch →
-        </a>
+        <div className={styles.cta}>
+          {" "}
+          <a className={styles.contact} href="mailto:...">
+            Get In Touch →
+          </a>
+          <p className={styles.email}>info@fabianprynn.com</p>
+        </div>
       </div>
     </section>
   );

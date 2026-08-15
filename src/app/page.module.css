@@ -21,8 +21,9 @@
   height: 100svh;
   object-fit: cover;
   z-index: -1;
-  background: url('/images/bg_03.jpg') no-repeat center center;
+  background: url('/images/desktop_bg.webp') center center / cover no-repeat;
   
 }
+
 
 
