@@ -5,7 +5,7 @@ export default function CreditsPage() {
   return (
     <main className={styles.page}>
       <div className={styles.nav}>
-        <button className={styles.backBtn}>
+        <button className="btn">
           <a href="/">← Back</a>
         </button>
       </div>

@@ -5,7 +5,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: start;
-
   width: 100%;
 }
 
@@ -34,6 +33,35 @@
 
 /* LEFT SIDE */
 
+.creditsTitle{
+  position: fixed;
+  background-color: var(--background);
+  z-index: 10;
+  width:100%;
+  height:8rem;
+  display: flex;
+  align-items: center;
+  padding-left:clamp(1rem, 2vw, 2rem)
+}
+
+.creditsTitle > h2 {
+  font-weight: 500;
+  line-height: 0.9;
+  letter-spacing: -0.06em;
+ color: var(--foreground, black);
+ font-family: var(--font-courier);
+}
+.mobileCreditsTitle{
+  display: none;
+  line-height: 0.9;
+  letter-spacing: -0.06em;
+  color: var(--foreground, black);
+  font-family: var(--font-courier);
+}
+
+.mobileCreditsTitle > *{
+  font-weight: 500;
+}
 .credits {
   position: relative;
   z-index: 1;
@@ -41,55 +69,56 @@
   min-width: 0;
 }
 
-.creditsHeader {
-  position: sticky;
-  top: 2rem;
-  left:0;
-  padding:0 2rem;
-  color:var(--background, white);
-  text-transform: uppercase;
-  font-weight:800;
-}
 
 
 
 /* RIGHT SIDE */
 
-.profile {
-  position: sticky;
+.profileContainer{
+
+  display: flex;
+  justify-content: center;
+    position: sticky;
   top: 0;
 
   z-index: 1;
+   z-index: 99;
+
+}
+
+.profile {
+
 
   height: 100svh;
   min-width: 0;
+  width:min-content;
 
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
-
+  align-items: center;
+  justify-content: space-evenly;
   padding: clamp(1.5rem, 3vw, 3rem);
+ 
 }
 
 
 .heroText {
   text-align: right;
-  color: vaR(--orange);
-  text-transform: uppercase;
+  
+
 }
 
 
 .heroTitle {
   margin: 0;
 
-  font-size: clamp(3.5rem, 8vw, 8rem);
+  font-size: clamp(2.5rem, 4vw, 6rem);
   font-weight: 500;
   line-height: 0.9;
-  letter-spacing: -0.02em;
- color: var(--background, white);
-  text-transform: uppercase;
-  font-family: var(--font-instrument-serif);
+  letter-spacing: -0.06em;
+ color: var(--foreground, black);
+ font-family: var(--font-courier);
+ text-wrap: nowrap;
 }
 
 
@@ -105,17 +134,22 @@
 
 }
 
+.imgContainer{
+  width:100%;
+
+}
+
 
 .portrait {
+
   display: block;
 
-  width: min(70%, 380px);
+  width:100%;
   height: auto;
 
   margin-top: clamp(2rem, 6vh, 5rem);
 
   object-fit: cover;
-
     filter: drop-shadow(0 0 0.75rem rgba(22, 3, 8, 0.36));
     transform:rotate(-1deg);
 }
@@ -152,6 +186,12 @@
     display: flex;
     flex-direction: column-reverse;
   }
+  
+  .profileContainer{
+    width:100%;
+    background-color: var(--background);
+    
+  }
 
   .profile {
     position: relative;
@@ -161,6 +201,11 @@
     height: auto;
 
     padding: clamp(1.5rem, 3vw, 3rem);
+  
+    
+    align-items: flex-start;
+  
+
   }
 
   .heroText {
@@ -169,5 +214,18 @@
 
   .portrait {
    display: none;
+  }
+
+  .creditsTitle{
+    display: none;
+  }
+
+  .mobileCreditsTitle{
+ 
+   
+    width:100%;
+    text-align: left;
+    margin-top: 2rem;
+   
   }
 }

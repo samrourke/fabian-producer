@@ -4,9 +4,6 @@ import credits from "@/data/credits.json";
 export default function Credits() {
   return (
     <section className={styles.credits}>
-      <div className={styles.nav}>
-        <a href="/">Back</a>
-      </div>
       <div className={styles.creditsGrid}>
         {credits.map((credit) => (
           <article key={credit.filename} className={styles.credit}>
@@ -36,10 +33,8 @@ export default function Credits() {
           </article>
         ))}
       </div>
-      <button className={styles.seeMoreButton}>
-        <a className={styles.seeMore} href="/credits">
-          Full List Of Credits
-        </a>
+      <button className="btn">
+        <a href="/credits">Full List Of Credits</a>
       </button>
     </section>
   );

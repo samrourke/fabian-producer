@@ -13,7 +13,7 @@ export const openSauce = localFont({
       weight: "500",
     },
   ],
-  variable: "--font-sans",
+  variable: "--font-openSauce",
   display: "swap",
 });
 
@@ -30,7 +30,7 @@ export const courierPrime = localFont({
       weight: "700",
     },
   ],
-  variable: "--font-open-sauce",
+  variable: "--font-courier",
   display: "swap",
 });
 

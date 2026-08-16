@@ -23,7 +23,7 @@ export default function ContactModal() {
   return (
     <>
       <button className="btn" onClick={openModal}>
-        Get In Touch <span>→</span>
+        Contact <span>→</span>
       </button>
 
       <dialog

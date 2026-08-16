@@ -122,7 +122,7 @@
 }
 
 .seeMoreButton{
-  border: 1px solid var(--orange);
+  border: 1px solid var(--foreground);
   padding: 0.5rem 1rem;
   display: inline-block;
   text-align: center;
@@ -131,46 +131,13 @@
   letter-spacing: 0.08em;
   margin-top: 1rem;
   position: relative;
-  color: var(--background, white);
+  color: var(--foreground, black);
  
 }
 
 
 
-.seeMoreButton::after{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--orange);
-  z-index: -1;
-  transform: scaleY(0);
-  transform-origin: bottom;
-}
 
-.seeMoreButton:hover{
-  color: var(--background, white);
-}
-
-.seeMoreButton:hover::after{
-  transform: scaleX(1);
-  transition: transform 0.3s ease;
-}
-
-.seeMore{
-  margin-top: 1rem;
-
-  font-size: clamp(1rem, 1vw, 2rem);
-  line-height: 1.2;
-
-  text-align: right;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  z-index: 10;
-
-}
 
 /* TABLET */
 
@@ -184,7 +151,9 @@
 
 @media (max-width: 768px) {
   .credits {
-    padding: 6rem 1rem 2rem;
+    padding: 3rem 1rem 2rem;
+    
+
   }
 
   .creditsGrid {
