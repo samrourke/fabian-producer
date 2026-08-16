@@ -1,0 +1,342 @@
+.trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+
+  padding: 1rem 1.3rem;
+  min-width: 235px;
+
+  border: 1px solid #151515;
+  background: transparent;
+  color: #151515;
+
+  font: inherit;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+
+  cursor: pointer;
+
+  transition:
+    background-color 180ms ease,
+    color 180ms ease;
+}
+
+.trigger:hover {
+  background: #151515;
+  color: #fff;
+}
+
+
+/* MODAL */
+
+.dialog {
+  width: min(680px, calc(100vw - 3rem));
+  max-height: calc(100dvh - 3rem);
+
+  padding: 0;
+  border: 0;
+  margin: auto;
+
+  background: transparent;
+  color: #151515;
+
+  overflow: visible;
+}
+
+.dialog::backdrop {
+  background: rgba(20, 20, 20, 0.45);
+  backdrop-filter: blur(2px);
+}
+
+
+
+.dialog[open] {
+  animation: modalIn 220ms ease-out;
+
+}
+
+@keyframes modalIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.99);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+/* CONTACT SHEET */
+
+.sheet {
+  width: 100%;
+
+  background: #f4f3ef;
+  border: 1px solid #202020;
+
+  padding: 1.5rem;
+
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.18),
+    0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding-bottom: 1.3rem;
+  border-bottom: 1px solid #151515;
+}
+
+.eyebrow {
+  margin: 0 0 0.35rem;
+
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+}
+
+.header h2 {
+  margin: 0;
+
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 400;
+  line-height: 0.95;
+}
+
+.close {
+  display: grid;
+  place-items: center;
+
+  width: 36px;
+  height: 36px;
+
+  border: 1px solid #151515;
+  background: transparent;
+
+  font: inherit;
+  font-size: 1.4rem;
+  line-height: 1;
+
+  cursor: pointer;
+}
+
+.close:hover {
+  background: #151515;
+  color: #fff;
+}
+
+
+/* SHEET METADATA */
+
+.meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  border-bottom: 1px solid #151515;
+}
+
+.meta p {
+  margin: 0;
+  padding: 0.65rem 0;
+
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+}
+
+.meta p:nth-child(2) {
+  text-align: center;
+}
+
+.meta p:last-child {
+  text-align: right;
+}
+
+
+/* FORM */
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+
+  min-height: 58px;
+
+  border-bottom: 1px solid #151515;
+}
+
+.field label {
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+
+  padding: 1rem;
+
+  border: 0;
+  border-left: 1px solid #151515;
+  border-radius: 0;
+
+  background: transparent;
+  color: inherit;
+
+  font: inherit;
+  font-size: 0.9rem;
+
+  outline: none;
+}
+
+.field input:focus,
+.field textarea:focus {
+  background: rgba(0, 0, 0, 0.035);
+}
+
+.field input::placeholder,
+.field textarea::placeholder {
+  color: #777;
+}
+
+.messageField {
+  align-items: stretch;
+}
+
+.messageField label {
+  padding-top: 1rem;
+}
+
+.field textarea {
+  min-height: 140px;
+
+  resize: vertical;
+}
+
+
+/* FOOTER */
+
+.footer {
+    position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 1.3rem;
+}
+
+.footer p {
+  margin: 0;
+
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  padding: 0.9rem 1.1rem;
+
+  border: 1px solid #151515;
+  background: transparent;
+
+  font: inherit;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+
+  cursor: pointer;
+}
+
+.submit:hover {
+  background: #151515;
+  color: #fff;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .dialog {
+    width: 100vw;
+    height: 100dvh;
+    max-width: none;
+    max-height: none;
+
+    margin: 0;
+    padding: 0;
+
+    overflow-y: auto;
+  }
+
+  .dialog::backdrop {
+    background: #f4f3ef;
+    backdrop-filter: none;
+  }
+
+  .sheet {
+    width: 100%;
+    min-height: 100dvh;
+
+    padding: 1rem;
+
+    border: 0;
+    box-shadow: none;
+  }
+
+  .header {
+    padding-bottom: 1rem;
+  }
+
+  .meta {
+    grid-template-columns: 1fr;
+    padding: 0.65rem 0;
+  }
+
+  .meta p,
+  .meta p:nth-child(2),
+  .meta p:last-child {
+    padding: 0.15rem 0;
+    text-align: left;
+  }
+
+  .field {
+    grid-template-columns: 1fr;
+  }
+
+  .field label {
+    padding: 0.8rem 0 0.35rem;
+    
+    text-align: left;
+
+  }
+
+  .field input,
+  .field textarea {
+    padding: 0.4rem 0 0.9rem;
+    border-left: 0;
+  }
+
+  .messageField {
+    flex: 1;
+  }
+
+  .footer {
+    align-items: flex-end;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+}
