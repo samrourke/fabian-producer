@@ -48,7 +48,7 @@
 
   padding-bottom: 2rem;
 
-  font-family: var(--font-courier-prime);
+
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -65,7 +65,7 @@
 .headingRow h1 {
   margin: 0;
 
-  font-family: var(--font-open-sauce);
+
    font-size: clamp(2.5rem, 3vw, 5rem);;
   font-weight: 500;
   line-height: 0.85;
@@ -78,7 +78,7 @@
   align-items: flex-end;
   gap: 0.2rem;
 
-  font-family: var(--font-courier-prime);
+
   font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -121,7 +121,7 @@
 
   border-top: 1px solid currentColor;
 
-  font-family: var(--font-courier-prime);
+  
   font-size: 0.62rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -136,15 +136,9 @@
 /* CELLS */
 
 .number {
-  font-family: var(--font-courier-prime);
+
   font-size: 0.65rem;
   opacity: 0.65;
-}
-
-.artist,
-.release,
-.roles {
-  font-family: var(--font-open-sauce);
 }
 
 .artist {
@@ -157,7 +151,7 @@
 }
 
 .roles {
-  font-family: var(--font-courier-prime);
+
   font-size: 0.68rem;
   line-height: 1.35;
 
@@ -232,7 +226,7 @@
 
   padding-bottom: 0.6rem;
 
-  font-family: var(--font-courier-prime);
+
   font-size: 0.62rem;
 
   text-transform: uppercase;
@@ -355,7 +349,7 @@
 
     margin-bottom: 0.15rem;
 
-    font-family: var(--font-courier-prime);
+    
     font-size: 0.5rem;
     font-weight: 400;
 
