@@ -1,4 +1,3 @@
-import { openSauce } from "../fonts";
 import Head from "./head";
 import "./globals.css";
 
