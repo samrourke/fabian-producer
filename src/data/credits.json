@@ -1,12 +1,28 @@
 [
   {
+    "artist": "Adult Jazz",
+    "release": "So Sorry So Slow",
+    "roles": [
+      "Mixer"
+    ],
+    "filename": "Adult_Jazz__So_Sorry_So_Slow__[Mixer].webp"
+  },
+  {
     "artist": "Alice Boman",
-    "release": "Dream On",
+    "release": "Dream On - Everybody Hurts",
     "roles": [
       "Producer",
       "Drums"
     ],
-    "filename": "Alice_Boman__Dream_On__[Producer,Drums].webp"
+    "filename": "Alice_Boman__Dream_On_-_Everybody_Hurts__[Producer,Drums].webp"
+  },
+  {
+    "artist": "Allie Crow Buckley",
+    "release": "Utopian Fantasy",
+    "roles": [
+      "Engineer"
+    ],
+    "filename": "Allie_Crow_Buckley__Utopian_Fantasy__[Engineer].webp"
   },
   {
     "artist": "Badly Drawn Boy",
@@ -40,6 +56,25 @@
       "Engineer"
     ],
     "filename": "Caroline__Carline_2_-_Total_Euphoria__[Engineer].webp"
+  },
+  {
+    "artist": "Clara Mann",
+    "release": "Live At The Royal Albert Hall",
+    "roles": [
+      "Engineer",
+      "Mixer"
+    ],
+    "filename": "Clara_Mann__Live_At_The_Royal_Albert_Hall__[Engineer,Mixer].webp"
+  },
+  {
+    "artist": "Clara Mann",
+    "release": "Rift",
+    "roles": [
+      "Producer",
+      "Mixer",
+      "Drums"
+    ],
+    "filename": "Clara_Mann__Rift__[Producer,Mixer,Drums].webp"
   },
   {
     "artist": "Clara Mann",
@@ -79,6 +114,15 @@
     "filename": "Daughter__Live_At_Brixton_Academy__[Mixer].webp"
   },
   {
+    "artist": "Declan McKenna",
+    "release": "Champagne / That's Life",
+    "roles": [
+      "Engineer",
+      "Ad Prod"
+    ],
+    "filename": "Declan_McKenna__Champagne_~_That's_Life__[Engineer, Ad Prod].webp"
+  },
+  {
     "artist": "Douglas Dare",
     "release": "Aforger",
     "roles": [
@@ -99,13 +143,13 @@
   },
   {
     "artist": "Douglas Dare",
-    "release": "SevenHours",
+    "release": "Seven Hours",
     "roles": [
       "Producer",
       "Drums",
       "Mixer"
     ],
-    "filename": "Douglas_Dare__SevenHours__[Producer,Drums,Mixer].webp"
+    "filename": "Douglas_Dare__Seven_Hours__[Producer,Drums,Mixer].webp"
   },
   {
     "artist": "Douglas Dare",
@@ -195,6 +239,15 @@
   },
   {
     "artist": "Hayden Thorpe",
+    "release": "Moon Dust For My Diamond",
+    "roles": [
+      "Drums",
+      "Engineer"
+    ],
+    "filename": "Hayden_Thorpe__Moon_Dust_For_My_Diamond__[Drums,Engineer].webp"
+  },
+  {
+    "artist": "Hayden Thorpe",
     "release": "Ness",
     "roles": [
       "Drums"
@@ -210,12 +263,58 @@
     "filename": "Jenny_Hval__Happy_Death_NTS_Session__[Mixer].webp"
   },
   {
+    "artist": "Kelora",
+    "release": "Sleepers",
+    "roles": [
+      "Engineer"
+    ],
+    "filename": "Kelora__Sleepers__[Engineer].webp"
+  },
+  {
     "artist": "King Krule",
     "release": "You'll Never Guess What Happened Next (Live)",
     "roles": [
       "Mixer"
     ],
     "filename": "King_Krule__You'll_Never_Guess_What_Happened_Next_(Live)__[Mixer].webp"
+  },
+  {
+    "artist": "Lande Hekt",
+    "release": "House Without A View",
+    "roles": [
+      "Producer",
+      "Engineer",
+      "Mixer"
+    ],
+    "filename": "Lande_Hekt__House_Without_A_View__[Producer,,Engineer,Mixer].webp"
+  },
+  {
+    "artist": "Martha Skye Murphy",
+    "release": "Heal",
+    "roles": [
+      "Producer",
+      "Mixer"
+    ],
+    "filename": "Martha_Skye_Murphy__Heal__[Producer,Mixer].webp"
+  },
+  {
+    "artist": "Martha Skye Murphy",
+    "release": "Um",
+    "roles": [
+      "Producer",
+      "Drums",
+      "Engineer"
+    ],
+    "filename": "Martha_Skye_Murphy__Um__[Producer,Drums,Engineer].webp"
+  },
+  {
+    "artist": "Martha Skye Murphy",
+    "release": "Your's Truly",
+    "roles": [
+      "Producer",
+      "Mixer"
+    ],
+    "filename": "Martha_Skye_Murphy__Your's_Truly__[Producer,Mixer].webp"
   },
   {
     "artist": "Masayoshi Fujita",
@@ -234,12 +333,20 @@
     "filename": "Mên_an_Tol__NW1__[Engineer].webp"
   },
   {
-    "artist": "Netflix (Film)",
-    "release": "The Stranger",
+    "artist": "Oliver Coats",
+    "release": "Stranger (Film)",
     "roles": [
       "Percussion"
     ],
-    "filename": "Netflix_(Film)__The_Stranger__[Percussion].webp"
+    "filename": "Oliver_Coats__Stranger_(Film)__[Percussion].webp"
+  },
+  {
+    "artist": "Rival Consoles",
+    "release": "Howl (Low)",
+    "roles": [
+      "Drums"
+    ],
+    "filename": "Rival_Consoles__Howl_(Low)__[Drums].webp"
   },
   {
     "artist": "Sarah Meth",
@@ -257,6 +364,15 @@
       "Drums"
     ],
     "filename": "Shards__Find_Sound__[Drums].webp"
+  },
+  {
+    "artist": "Tara Clerkin Trio",
+    "release": "In Spring",
+    "roles": [
+      "Producer",
+      "Engineer"
+    ],
+    "filename": "Tara_Clerkin_Trio__In_Spring__[Producer,Engineer].webp"
   },
   {
     "artist": "The Charlatans",
@@ -283,12 +399,28 @@
     "filename": "Tucker_Zimmerman__Dance_Of_Love_Live_From_Lexington__[Mixer].webp"
   },
   {
+    "artist": "Tune Yards",
+    "release": "Better  Dreaming",
+    "roles": [
+      "Dolby Atmost Mixer"
+    ],
+    "filename": "Tune_Yards__Better__Dreaming__[Dolby_Atmost_Mixer].webp"
+  },
+  {
     "artist": "U.S Girls",
     "release": "Live From Soft Junk",
     "roles": [
       "Mixer"
     ],
     "filename": "U.S_Girls__Live_From_Soft_Junk__[Mixer].webp"
+  },
+  {
+    "artist": "Westerman",
+    "release": "An Inbuilt Fault",
+    "roles": [
+      "Engineer"
+    ],
+    "filename": "Westerman__An_Inbuilt_Fault__[Engineer].webp"
   },
   {
     "artist": "Westerman",

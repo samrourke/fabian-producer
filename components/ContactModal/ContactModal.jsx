@@ -48,9 +48,7 @@ export default function ContactModal() {
           </header>
 
           <div className={styles.meta}>
-            <p>PRODUCTION / ENGINEERING</p>
-            <p>ENQUIRY FORM</p>
-            <p>REF. FP-001</p>
+            <p>PRODUCTION / MIXING / DRUMS</p>
           </div>
 
           <form
@@ -83,7 +81,7 @@ export default function ContactModal() {
               />
             </div>
 
-            <div className={styles.field}>
+            {/* <div className={styles.field}>
               <label htmlFor="project">03 / PROJECT</label>
               <input
                 id="project"
@@ -91,10 +89,10 @@ export default function ContactModal() {
                 type="text"
                 placeholder="Artist / record / project"
               />
-            </div>
+            </div> */}
 
             <div className={`${styles.field} ${styles.messageField}`}>
-              <label htmlFor="message">04 / MESSAGE</label>
+              <label htmlFor="message">03 / MESSAGE</label>
               <textarea id="message" name="message" rows="5" required />
             </div>
 

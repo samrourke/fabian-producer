@@ -21,6 +21,7 @@ const IMAGE_EXTENSIONS = new Set([
   ".webp",
   ".tif",
   ".tiff",
+  ".avif",
 ]);
 
 async function processImage(inputPath, outputPath, size) {

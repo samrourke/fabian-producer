@@ -1,6 +1,6 @@
 import styles from "./Hero.module.css";
 import Credits from "../Credits/Credits";
-import ContactModal from "../ContatModal/ContactModal";
+import ContactModal from "../ContactModal/ContactModal";
 
 export default function Hero() {
   return (
@@ -10,9 +10,9 @@ export default function Hero() {
     
         <p>Credits</p>
       </div> */}
-      <div className={styles.creditsTitle}>
+      {/* <div className={styles.creditsTitle}>
         <h2>Credits</h2>
-      </div>
+      </div> */}
 
       <div className={styles.credits}>
         <Credits />

@@ -10,16 +10,11 @@ export default function CreditsPage() {
         </button>
       </div>
       <header className={styles.header}>
-        <div className={styles.headerTop}>
-          <p className={styles.eyebrow}>Production Record</p>
-          <p className={styles.date}>Selected Credits</p>
-        </div>
-
         <div className={styles.headingRow}>
           <h1>Credits</h1>
 
           <div className={styles.summary}>
-            <span>{credits.length} Records</span>
+            {/* <span>{credits.length} Records</span> */}
             <span>Archive / Selected Work</span>
           </div>
         </div>
@@ -31,7 +26,7 @@ export default function CreditsPage() {
           <div className={styles.imageColumn}>Ref.</div>
           <div className={styles.artist}>Artist</div>
           <div className={styles.release}>Release</div>
-          <div className={styles.roles}>Role / Credit</div>
+          <div className={styles.roles}>Work</div>
         </div>
 
         {credits.map((credit, index) => (

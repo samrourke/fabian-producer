@@ -48,7 +48,7 @@
   font-weight: 500;
   line-height: 0.9;
   letter-spacing: -0.06em;
- color: var(--foreground, black);
+  color: var(--foreground, black);
  font-family: var(--font-courier);
 }
 .mobileCreditsTitle{
@@ -112,12 +112,12 @@
 .heroTitle {
   margin: 0;
 
-  font-size: clamp(2.5rem, 4vw, 6rem);
+  font-size: clamp(2.5rem, 3vw, 5rem);
   font-weight: 500;
   line-height: 0.9;
   letter-spacing: -0.06em;
  color: var(--foreground, black);
- font-family: var(--font-courier);
+ font-family: var(--font-sans);
  text-wrap: nowrap;
 }
 

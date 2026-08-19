@@ -11,16 +11,21 @@
 .nav{
     position: fixed;
     top:0;
-    padding:2rem 0;
+ 
     background-color: var(--background, #f4f1e9 );
     width:100%;
     z-index: 9;
+  
+      height:6rem;
+      display: flex;
+      align-items: center;
   
 }
 
 .backBtn{
   
     padding:0.1rem 0.2rem;
+    margin:0;
   
 }
 

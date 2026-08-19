@@ -34,7 +34,7 @@ export default function Credits() {
         ))}
       </div>
       <button className="btn">
-        <a href="/credits">Full List Of Credits</a>
+        <a href="/credits">List Of Credits</a>
       </button>
     </section>
   );
