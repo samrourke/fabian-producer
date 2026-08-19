@@ -71,7 +71,7 @@ export default function CreditsPage() {
 
       <footer className={styles.footer}>
         <span>End of Credits</span>
-        <span>{String(credits.length).padStart(3, "0")} Entries</span>
+        {/* <span>{String(credits.length).padStart(3, "0")} Entries</span> */}
       </footer>
     </main>
   );

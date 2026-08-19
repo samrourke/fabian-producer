@@ -24,8 +24,8 @@
 }
 
 .trigger:hover {
-  background: #151515;
-  color: #fff;
+  background: var(--foreground);
+  color: var(--background);
 }
 
 
@@ -40,7 +40,7 @@
   margin: auto;
 
   background: transparent;
-  color: #151515;
+  color: var(--foreground);
 
   overflow: visible;
 }
@@ -75,7 +75,7 @@
 .sheet {
   width: 100%;
 
-  background: #f4f3ef;
+  background: var(--background);
   border: 1px solid #202020;
 
   padding: 1.5rem;
@@ -128,8 +128,8 @@
 }
 
 .close:hover {
-  background: #151515;
-  color: #fff;
+  background: var(--foreground);
+  color: var(--background);
 }
 
 
@@ -139,7 +139,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
-  border-bottom: 1px solid #151515;
+  border-bottom: 1px solid var(--foreground);
 }
 
 .meta p {
@@ -173,7 +173,7 @@
 
   min-height: 58px;
 
-  border-bottom: 1px solid #151515;
+  border-bottom: 1px solid var(--foreground);
 }
 
 .field label {
@@ -207,7 +207,8 @@
 
 .field input::placeholder,
 .field textarea::placeholder {
-  color: #777;
+  color: var(--foreground);
+  opacity: 0.8;
 }
 
 .messageField {

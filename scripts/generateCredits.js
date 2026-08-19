@@ -6,23 +6,30 @@ import path from "path";
 const COVERS_DIR = "public/images/covers/desktop";
 const OUTPUT_FILE = "src/data/credits.json";
 
+/*Save artist photo's under the expected format:
+
+  Artist_Name__Release_Title__[Role,Another_Role]
+
+  name, title and role seperated by a double underline __
+
+  Example:
+  Adult_Jazz__So_Sorry_So_Slow__[Mixer].webp
+
+  To use a forward slash such as "Champagne / That’s Life" replace it with a ~ e.g
+
+    Example:
+
+    Declan_McKenna__Champagne_~_That’s_Life__[Engineer,Additional_Production]
+    
+    restoreText() will replace a single underline with a space and ~ with a / */
+
 function restoreText(value) {
-  return value.replaceAll("_", " ").trim();
+  return value.replaceAll("_", " ").replaceAll("~", "/").trim();
 }
 
 function parseCreditFilename(file) {
   const extension = path.extname(file);
   const filename = path.basename(file, extension);
-
-  /*
-    Expected format:
-
-    Artist_Name__Release_Title__[Role,Another_Role]
-
-    Example:
-
-    Declan_McKenna__Champagne_That’s_Life__[Engineer,Additional_Production]
-  */
 
   const match = filename.match(/^(.+?)__(.+?)__\[(.+)\]$/);
 

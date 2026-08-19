@@ -7,7 +7,7 @@
 /* ── Design Tokens ────────────────────────────────────────── */
 :root {
   /* Colours — override per project */
-  --background:   #f7f7f7;
+  --background:   #f4f3ef;
   --foreground:   #141414;
   --orange: #ee6d23;
 

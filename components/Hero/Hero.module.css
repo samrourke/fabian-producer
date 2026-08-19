@@ -151,7 +151,7 @@
 
   object-fit: cover;
     filter: drop-shadow(0 0 0.75rem rgba(22, 3, 8, 0.36));
-    transform:rotate(-1deg);
+   
 }
 
 

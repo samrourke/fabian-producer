@@ -9,12 +9,12 @@
   },
   {
     "artist": "Alice Boman",
-    "release": "Dream On - Everybody Hurts",
+    "release": "Dream On",
     "roles": [
       "Producer",
       "Drums"
     ],
-    "filename": "Alice_Boman__Dream_On_-_Everybody_Hurts__[Producer,Drums].webp"
+    "filename": "Alice_Boman__Dream_On__[Producer,Drums].webp"
   },
   {
     "artist": "Allie Crow Buckley",
@@ -48,14 +48,15 @@
       "Mixer"
     ],
     "filename": "Big_Thief__Outdoor_Acoustic_Live_Session__[Mixer].webp"
-  },
+  }
+  ,
   {
-    "artist": "Caroline",
-    "release": "Carline 2 - Total Euphoria",
+    "artist": "caroline",
+    "release": "caroline 2 - Total Euphoria",
     "roles": [
       "Engineer"
     ],
-    "filename": "Caroline__Carline_2_-_Total_Euphoria__[Engineer].webp"
+    "filename": "caroline__caroline_2_-_Total_Euphoria__[Engineer].webp"
   },
   {
     "artist": "Clara Mann",
@@ -98,12 +99,12 @@
   },
   {
     "artist": "Daughter",
-    "release": "All I Wanted (Live From Asylum Chapen)",
+    "release": "All I Wanted (Live From Asylum Chapel)",
     "roles": [
       "Engineer",
       "Mixer"
     ],
-    "filename": "Daughter__All_I_Wanted_(Live_From_Asylum_Chapen)__[Engineer,Mixer].webp"
+    "filename": "Daughter__All_I_Wanted_(Live_From_Asylum_Chapel)__[Engineer,Mixer].webp"
   },
   {
     "artist": "Daughter",
@@ -120,7 +121,7 @@
       "Engineer",
       "Ad Prod"
     ],
-    "filename": "Declan_McKenna__Champagne_~_That's_Life__[Engineer, Ad Prod].webp"
+    "filename": "Declan_McKenna__Champagne_~_That's_Life__[Engineer,Ad_Prod].webp"
   },
   {
     "artist": "Douglas Dare",
@@ -163,11 +164,11 @@
   },
   {
     "artist": "Dry Cleaning",
-    "release": "StumpWork",
+    "release": "Stumpwork",
     "roles": [
       "Vocal Engineer"
     ],
-    "filename": "Dry_Cleaning__StumpWork__[Vocal_Engineer].webp"
+    "filename": "Dry_Cleaning__Stumpwork__[Vocal_Engineer].webp"
   },
   {
     "artist": "Emma Anderson",
@@ -386,9 +387,9 @@
     "artist": "The Cult",
     "release": "She Sells Sanctuary",
     "roles": [
-      "Dolby Atmost Mixer"
+      "Dolby Atmos Mixer"
     ],
-    "filename": "The_Cult__She_Sells_Sanctuary__[Dolby_Atmost_Mixer].webp"
+    "filename": "The_Cult__She_Sells_Sanctuary__[Dolby_Atmos_Mixer].webp"
   },
   {
     "artist": "Tucker Zimmerman",
@@ -399,20 +400,20 @@
     "filename": "Tucker_Zimmerman__Dance_Of_Love_Live_From_Lexington__[Mixer].webp"
   },
   {
-    "artist": "Tune Yards",
+    "artist": "Tune-Yards",
     "release": "Better  Dreaming",
     "roles": [
-      "Dolby Atmost Mixer"
+      "Dolby Atmos Mixer"
     ],
-    "filename": "Tune_Yards__Better__Dreaming__[Dolby_Atmost_Mixer].webp"
+    "filename": "Tune-Yards__Better__Dreaming__[Dolby_Atmos_Mixer].webp"
   },
   {
-    "artist": "U.S Girls",
+    "artist": "U.S. Girls",
     "release": "Live From Soft Junk",
     "roles": [
       "Mixer"
     ],
-    "filename": "U.S_Girls__Live_From_Soft_Junk__[Mixer].webp"
+    "filename": "U.S._Girls__Live_From_Soft_Junk__[Mixer].webp"
   },
   {
     "artist": "Westerman",
