@@ -1,9 +1,9 @@
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request) {
   try {
+    const resend = new Resend(process.env.RESEND_API_KEY);
+
     const { name, email, message, company } = await request.json();
 
     if (company) {
@@ -19,14 +19,9 @@ export async function POST(request) {
 
     const { data, error } = await resend.emails.send({
       from: "Fabian Prynn Website <website@fabianprynn.com>",
-
-      // Replace this with Fabian's actual email address.
       to: [process.env.CONTACT_EMAIL],
-
-      subject: `New website enquiry from ${name}`,
-
       replyTo: email,
-
+      subject: `New website enquiry from ${name}`,
       text: `
 NEW WEBSITE ENQUIRY
 
