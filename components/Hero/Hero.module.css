@@ -181,7 +181,7 @@
    color:var(--orange);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .hero {
     display: flex;
     flex-direction: column-reverse;
@@ -190,8 +190,18 @@
   .profileContainer{
     width:100%;
     background-color: var(--background);
+    position: relative;
     
   }
+
+  .imgContainer{
+  width:100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 
   .profile {
     position: relative;
@@ -203,7 +213,7 @@
     padding: clamp(1.5rem, 3vw, 3rem);
   
     
-    align-items: flex-start;
+    align-items: center;
   
 
   }
@@ -213,7 +223,9 @@
   }
 
   .portrait {
-   display: none;
+     width:50%;
+  height: auto;
+
   }
 
   .creditsTitle{

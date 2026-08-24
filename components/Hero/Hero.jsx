@@ -5,15 +5,6 @@ import ContactModal from "../ContactModal/ContactModal";
 export default function Hero() {
   return (
     <section className={styles.hero}>
-      {/* <div className={styles.filter}></div> */}
-      {/* <div className={styles.creditsHeader}>
-    
-        <p>Credits</p>
-      </div> */}
-      {/* <div className={styles.creditsTitle}>
-        <h2>Credits</h2>
-      </div> */}
-
       <div className={styles.credits}>
         <Credits />
       </div>
@@ -21,9 +12,6 @@ export default function Hero() {
         <div className={styles.profile}>
           <div className={styles.heroText}>
             <h1 className={styles.heroTitle}>Fabian Prynn</h1>
-            {/* <p className={styles.heroSubtitle}>
-            Producer / Mixer / Engineer / Drums
-          </p> */}
           </div>
 
           <div className={styles.imgContainer}>

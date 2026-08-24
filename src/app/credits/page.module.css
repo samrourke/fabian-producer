@@ -11,22 +11,17 @@
 .nav{
     position: fixed;
     top:0;
- 
     background-color: var(--background, #f4f1e9 );
     width:100%;
     z-index: 9;
-  
-      height:6rem;
-      display: flex;
-      align-items: center;
-  
+    height:6rem;
+    display: flex;
+    align-items: center;
 }
 
 .backBtn{
-  
     padding:0.1rem 0.2rem;
     margin:0;
-  
 }
 
 /* HEADER */
@@ -34,7 +29,6 @@
 .header {
   border-top: 2px solid currentColor;
   border-bottom: 1px solid currentColor;
-
   padding-top: 0.6rem;
   margin-bottom: 1.5rem;
   background-color: var(--foreground);
@@ -45,10 +39,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding-bottom: 2rem;
-
-
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -58,15 +49,12 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-
   padding-bottom: 1rem;
 }
 
 .headingRow h1 {
   margin: 0;
-
-
-   font-size: clamp(2.5rem, 3vw, 5rem);;
+  font-size: clamp(2.5rem, 3vw, 5rem);;
   font-weight: 500;
   line-height: 0.85;
   letter-spacing: -0.06em;
@@ -235,7 +223,7 @@
 
 /* TABLET */
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .row {
     grid-template-columns:
       2.5rem
@@ -253,11 +241,11 @@
   .summary {
     display: none;
   }
-}
+} */
 
 /* MOBILE */
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
   .page {
     padding-left: 1rem;
     padding-right: 1rem;

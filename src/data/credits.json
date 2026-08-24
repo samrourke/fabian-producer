@@ -9,12 +9,13 @@
   },
   {
     "artist": "Alice Boman",
-    "release": "Dream On",
+    "release": "Dream On (Everybody Hurts)",
     "roles": [
       "Producer",
-      "Drums"
+      "Drums",
+      "Engineer"
     ],
-    "filename": "Alice_Boman__Dream_On__[Producer,Drums].webp"
+    "filename": "Alice_Boman__Dream_On_(Everybody_Hurts)__[Producer,Drums,Engineer].webp"
   },
   {
     "artist": "Allie Crow Buckley",
@@ -48,15 +49,6 @@
       "Mixer"
     ],
     "filename": "Big_Thief__Outdoor_Acoustic_Live_Session__[Mixer].webp"
-  }
-  ,
-  {
-    "artist": "caroline",
-    "release": "caroline 2 - Total Euphoria",
-    "roles": [
-      "Engineer"
-    ],
-    "filename": "caroline__caroline_2_-_Total_Euphoria__[Engineer].webp"
   },
   {
     "artist": "Clara Mann",
@@ -124,6 +116,15 @@
     "filename": "Declan_McKenna__Champagne_~_That's_Life__[Engineer,Ad_Prod].webp"
   },
   {
+    "artist": "Douglas Dare - London Contemporary Orchestra",
+    "release": "Heavenly Bodies",
+    "roles": [
+      "Engineer",
+      "Mixer"
+    ],
+    "filename": "Douglas_Dare_-_London_Contemporary_Orchestra__Heavenly_Bodies__[Engineer,Mixer].webp"
+  },
+  {
     "artist": "Douglas Dare",
     "release": "Aforger",
     "roles": [
@@ -132,15 +133,6 @@
       "Mixer"
     ],
     "filename": "Douglas_Dare__Aforger__[Producer,Drums,Mixer].webp"
-  },
-  {
-    "artist": "Douglas Dare",
-    "release": "Heavenly Bodies",
-    "roles": [
-      "Engineer",
-      "Mixer"
-    ],
-    "filename": "Douglas_Dare__Heavenly_Bodies__[Engineer,Mixer].webp"
   },
   {
     "artist": "Douglas Dare",
@@ -223,11 +215,11 @@
   },
   {
     "artist": "Ghostpoet",
-    "release": "I Grow Tired But Dare Fall Asleep",
+    "release": "I Grow Tired But Dare Not Fall Asleep",
     "roles": [
       "Drums"
     ],
-    "filename": "Ghostpoet__I_Grow_Tired_But_Dare_Fall_Asleep__[Drums].webp"
+    "filename": "Ghostpoet__I_Grow_Tired_But_Dare_Not_Fall_Asleep__[Drums].webp"
   },
   {
     "artist": "Hayden Thorpe",
@@ -240,12 +232,12 @@
   },
   {
     "artist": "Hayden Thorpe",
-    "release": "Moon Dust For My Diamond",
+    "release": "Moondust For My Diamond",
     "roles": [
       "Drums",
       "Engineer"
     ],
-    "filename": "Hayden_Thorpe__Moon_Dust_For_My_Diamond__[Drums,Engineer].webp"
+    "filename": "Hayden_Thorpe__Moondust_For_My_Diamond__[Drums,Engineer].webp"
   },
   {
     "artist": "Hayden Thorpe",
@@ -302,11 +294,11 @@
     "artist": "Martha Skye Murphy",
     "release": "Um",
     "roles": [
-      "Producer",
+      "Producer (Call Me Back)",
       "Drums",
       "Engineer"
     ],
-    "filename": "Martha_Skye_Murphy__Um__[Producer,Drums,Engineer].webp"
+    "filename": "Martha_Skye_Murphy__Um__[Producer_(Call_Me_Back),Drums,Engineer].webp"
   },
   {
     "artist": "Martha Skye Murphy",
@@ -431,5 +423,13 @@
       "Engineer"
     ],
     "filename": "Westerman__Your_Hero_Is_Not_Dead__[Drums,Engineer].webp"
+  },
+  {
+    "artist": "caroline",
+    "release": "caroline 2 - Total Euphoria",
+    "roles": [
+      "Engineer"
+    ],
+    "filename": "caroline__caroline_2_-_Total_Euphoria__[Engineer].webp"
   }
 ]
