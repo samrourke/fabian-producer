@@ -50,6 +50,14 @@
     ],
     "filename": "Big_Thief__Outdoor_Acoustic_Live_Session__[Mixer].webp"
   },
+   {
+    "artist": "caroline",
+    "release": "caroline 2 - Total Euphoria",
+    "roles": [
+      "Engineer"
+    ],
+    "filename": "caroline__caroline_2_-_Total_Euphoria__[Engineer].webp"
+  },
   {
     "artist": "Clara Mann",
     "release": "Live At The Royal Albert Hall",
@@ -423,13 +431,6 @@
       "Engineer"
     ],
     "filename": "Westerman__Your_Hero_Is_Not_Dead__[Drums,Engineer].webp"
-  },
-  {
-    "artist": "caroline",
-    "release": "caroline 2 - Total Euphoria",
-    "roles": [
-      "Engineer"
-    ],
-    "filename": "caroline__caroline_2_-_Total_Euphoria__[Engineer].webp"
   }
+ 
 ]
