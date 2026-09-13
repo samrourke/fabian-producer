@@ -34,14 +34,7 @@
     ],
     "filename": "Badly_Drawn_Boy__The_Shining_(Live_&_Acoustic)__[Engineer,Mixer].webp"
   },
-  {
-    "artist": "Big Thief",
-    "release": "Live Archive",
-    "roles": [
-      "Mixer"
-    ],
-    "filename": "Big_Thief__Live_Archive__[Mixer].webp"
-  },
+ 
   {
     "artist": "Big Thief",
     "release": "Outdoor Acoustic Live Session",
@@ -357,6 +350,15 @@
       "Engineer"
     ],
     "filename": "Sarah_Meth__Horses__[Mixer,Engineer].webp"
+  },
+  {
+    "artist": "Sarah Meth",
+    "release": "Something Shameful",
+    "roles": [
+      "Mixer",
+      "Engineer"
+    ],
+    "filename": "Sarah_Meth__Something_Shameful__[Mixer,Engineer].webp"
   },
   {
     "artist": "Shards",
