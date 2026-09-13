@@ -291,12 +291,16 @@
 
   .sheet {
     width: 100%;
-    min-height: 100dvh;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     padding: 1rem;
 
     border: 0;
     box-shadow: none;
+
   }
 
   .header {
