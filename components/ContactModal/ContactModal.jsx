@@ -13,9 +13,11 @@ export default function ContactModal() {
     setStatus("idle");
     setError("");
     dialogRef.current?.showModal();
+    document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
   }
 
   function closeModal() {
+    document.body.style.overflow = "auto"; // Restore scrolling when modal is closed
     dialogRef.current?.close();
   }
 
